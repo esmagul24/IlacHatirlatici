@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586896011480",
+    "project_id": "ilac-rehberi-3536b",
+    "storage_bucket": "ilac-rehberi-3536b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586896011480:android:4033d560a4489ab80a27ad",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-NNELMyticovcXOf2JwA0bGheeQIn498"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
