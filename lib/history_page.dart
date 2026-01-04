@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class HistoryPage extends StatelessWidget {
   const HistoryPage({super.key});
 
-  // Geçmiş verisi (Örnek veriler)
+  // Geçmiş verisi(Örnek veriler)
   final List<Map<String, dynamic>> medicationHistory = const [
     {'name': 'İlaç A', 'time': 'Dün, 22:00', 'status': 'Alındı', 'color': Colors.green},
     {'name': 'İlaç B', 'time': 'Dün, 18:00', 'status': 'Atlandı', 'color': Colors.red},
