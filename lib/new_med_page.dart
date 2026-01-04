@@ -54,7 +54,7 @@ class _NewMedPageState extends State<NewMedPage> {
       List<String> existingRxcuis = [];
       String existingMedName = "Kayıtlı İlaç";
 
-      // İŞTE SORDUĞUN KRİTİK DÖNGÜ:
+      // İŞTE SORDUĞUN KRİTİK DÖNGÜ
       for (var doc in snapshot.docs) {
         final data = doc.data() as Map<String, dynamic>;
         // Veritabanında rxcui varsa ve "Bulunamadı" değilse listeye ekle
