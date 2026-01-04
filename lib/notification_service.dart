@@ -32,7 +32,7 @@ Future<void> scheduleNotification(
   );
 }
 
-// İptal etme fonksiyonu (isteğe bağlı)
+// İptal etme fonksiyonu
 Future<void> cancelAllNotifications() async {
   await flutterLocalNotificationsPlugin.cancelAll();
 }
