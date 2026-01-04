@@ -8,7 +8,7 @@ class MyMedsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Kayıtlı İlaçlarım')),
-      // StreamBuilder: Veritabanında bir değişiklik olduğunda sayfayı otomatik yeniler
+      // StreamBuilder:: Veritabanında bir değişiklik olduğunda sayfayı otomatik yeniler
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance
             .collection('medications')
