@@ -4,7 +4,7 @@ class NotificationsPage extends StatelessWidget {
   const NotificationsPage({super.key});
 
   // Basit bildirimler listesi (Örnek veriler)
-  final List<Map<String, dynamic>> recentNotifications = const [
+  final List<Map<String, dynamic>> recentNotifications = const [ 
     {'title': 'İlaç A alım saati yaklaşıyor.', 'time': '2 dakika önce', 'icon': Icons.alarm_on},
     {'title': 'İlaç B dozu kaçırıldı.', 'time': '1 saat önce', 'icon': Icons.warning_amber, 'color': Colors.red},
     {'title': 'Yeni ilaç başarıyla eklendi.', 'time': 'Bugün, 14:30', 'icon': Icons.check_circle_outline},
