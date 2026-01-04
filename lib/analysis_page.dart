@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class AnalysisPage extends StatelessWidget {
-  const AnalysisPage({super.key});
+  const AnalysisPage({super.key}); 
 
   Future<List<String>> checkAllInteractions(List<String> rxcuis) async {
     if (rxcuis.length < 2) return [];
